@@ -11,7 +11,7 @@ function excuses() {
    let que = what[Math.floor(Math.random() * 3)]
    let cuando = when[Math.floor(Math.random() * 5)]  
 
-    const resultadoexcusa = (quien + " " + accion + " " + que + " " + cuando)
+    let resultadoexcusa = (quien + " " + accion + " " + que + " " + cuando)
     return resultadoexcusa;
  }
 
